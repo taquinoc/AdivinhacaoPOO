@@ -17,9 +17,6 @@ public class Game {
     Jogador j1 = new Jogador();
     Jogador j2 = new Jogador();
     Jogador j3 = new Jogador();
-
- 
-    
     Random numeroAleatorio = new Random();
 
     public void iniciarJogo() {
@@ -34,7 +31,6 @@ public class Game {
         j3.palpite = Integer.parseInt(JOptionPane.showInputDialog(j3.nome+", por favor insira seu palpite de 1 a 5. "));
 
     }
-
 
     void verificarPalpites() {
 
@@ -52,19 +48,11 @@ public class Game {
         }
 
         if (j3.palpite == num) {
-
             JOptionPane.showMessageDialog(null, "Parabéns, "+j3.nome+" você ganhou!");
-
         }
         
         if(j1.palpite != num && j2.palpite != num && j3.palpite != num){
-            
             JOptionPane.showMessageDialog(null, "Ninguém ganhou :( tente novamente!");
-            
         }
-        
-        
-
     }
-
 }
