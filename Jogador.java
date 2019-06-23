@@ -10,13 +10,6 @@ package advinhacao;
  * @author e6661387
  */
 public class Jogador {
-    
     String nome;
     int palpite;
-    
-    
-    
-    
-    
-    
 }
