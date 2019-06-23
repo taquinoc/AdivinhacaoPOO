@@ -10,25 +10,9 @@ package advinhacao;
  * @author e6661387
  */
 public class Principal {
-   
-    
     public static void main(String[] args) {
-        
         Game jogar = new Game();
-       
         jogar.iniciarJogo();
         jogar.verificarPalpites();
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
-    
-    
-    
 }
